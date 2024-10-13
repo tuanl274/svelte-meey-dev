@@ -48,7 +48,7 @@
           src={slide.src}
           alt={slide.alt}
           class="rounded-lg bg-slate-500"
-          fetchpriority={index == 0 ? 'high' : 'auto'}
+          fetchpriority={index == 0 ? 'high' : 'low'}
           width={737}
           height={422}
         />
