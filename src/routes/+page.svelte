@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { PageData } from './$types'
   import Carousel from '$lib/components/carousel/Carousel.svelte'
+  import { browser } from '$app/environment'
 
   export let data: PageData
   const article = data.article
@@ -179,7 +180,7 @@
       <div class="rounded-lg bg-[#fff] p-6 text-secondary-800">
         <h3 class="text-fs-20 mb-4 font-medium">Vị trí bản đồ</h3>
         <div class="h-[300px] w-full rounded-lg z-[100]">
-          {#if window}
+          {#if browser}
             <iframe
               title="map sdk"
               name="map iframe"
