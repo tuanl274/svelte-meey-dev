@@ -3,7 +3,7 @@ import type { PageLoad } from './$types'
 export const load: PageLoad = async ({ params }) => {
   console.time('init')
   const response = await fetch(
-    'https://api5.meeyland.com/v1/articles/301893950',
+    'https://api-meeyland.meey.dev/v1/articles/300064091',
     {
       method: 'GET',
       headers: {
