@@ -14,7 +14,13 @@
 
 <!-- Menu -->
 <nav class="flex justify-start bg-[#156fee] h-16 px-6 items-center">
-  <img src="/logo.svg" alt="logo" fetchpriority="high" />
+  <img
+    src="/logo.svg"
+    alt="logo"
+    fetchpriority="high"
+    width={180}
+    height={36}
+  />
   <ul class="flex flex-wrap items-center font-medium text-base ml-6">
     {#each mainRoutes as route}
       <MenuItem item={route} />
