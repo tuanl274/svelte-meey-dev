@@ -1,7 +1,7 @@
 import type { MenuItem } from '$lib/types/menu/menu.interface'
 import type { PageLoad } from './$types'
 
-export const prerender = true
+// export const prerender = true
 
 export const load: PageLoad = async () => {
   const response = await fetch('https://api-meeyland.meey.dev/v1/configs', {
