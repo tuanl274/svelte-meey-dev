@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+}
+
 .layout {
   max-width: 1280px;
   margin: 0 auto;

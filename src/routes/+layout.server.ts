@@ -1,3 +1,4 @@
+import type { MenuItem } from '$lib/types/menu/menu.interface'
 import type { PageLoad } from './$types'
 
 export const load: PageLoad = async () => {
@@ -11,7 +12,6 @@ export const load: PageLoad = async () => {
   const data = await response?.json()
 
   console.timeEnd('configs.........')
-  console.log('....', data?.data?.menu)
 
   return {
     mainRoutes: data?.data?.menu?.map((cate: any) => {
@@ -22,17 +22,17 @@ export const load: PageLoad = async () => {
         label: cate.label,
         url: `${cate.value}`,
         target: cate.target ?? null,
-        rel: cate.rel ?? null
-        // subLink: cate.subMenu?.map((item, index) => ({
-        //   type: 'link',
-        //   key: cate._id + ` ${index}` + Math.random(),
-        //   title: item.label,
-        //   label: item.label,
-        //   url: `${item.value}`,
-        //   target: item.target ?? null,
-        //   rel: item.rel ?? null
-        // }))
+        rel: cate.rel ?? null,
+        subLink: cate.subMenu?.map((item: any, index: number) => ({
+          type: 'link',
+          key: cate._id + ` ${index}` + Math.random(),
+          title: item.label,
+          label: item.label,
+          url: `${item.value}`,
+          target: item.target ?? null,
+          rel: item.rel ?? null
+        }))
       }
-    })
+    }) as MenuItem[]
   }
 }
