@@ -15,7 +15,11 @@
     open = false
   }}
 >
-  <a class="text-white hover:text-slate-900" href="/">{item.label}</a>
+  <a
+    class="text-white hover:text-slate-900"
+    href={item.url}
+    target={item.target}>{item.label}</a
+  >
 
   <!-- Submenu -->
   {#if open}
@@ -27,7 +31,8 @@
         <li>
           <a
             class="text-black hover:bg-slate-50 flex items-center px-2.5 py-3 text-[0.875rem] font-medium"
-            href="/"
+            href={subMenu.url}
+            target={subMenu.target}
           >
             {subMenu.label}
           </a>

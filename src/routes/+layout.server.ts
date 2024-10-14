@@ -2,7 +2,6 @@ import type { MenuItem } from '$lib/types/menu/menu.interface'
 import type { PageLoad } from './$types'
 
 export const load: PageLoad = async () => {
-  console.time('configs')
   const response = await fetch('https://api-meeyland.meey.dev/v1/configs', {
     method: 'GET',
     headers: {
@@ -10,8 +9,6 @@ export const load: PageLoad = async () => {
     }
   })
   const data = await response?.json()
-
-  console.timeEnd('configs.........')
 
   return {
     mainRoutes: data?.data?.menu?.map((cate: any) => {

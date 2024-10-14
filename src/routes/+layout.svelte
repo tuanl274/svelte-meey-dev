@@ -1,5 +1,5 @@
 <script>
-  import '../app.css'
+  import '../app.scss'
 
   import Carousel from '$lib/components/carousel/Carousel.svelte'
   import { fade } from 'svelte/transition'
@@ -10,7 +10,7 @@
 
 <!-- Menu -->
 <nav class="flex justify-start bg-[#156fee] h-16 px-6 items-center">
-  <img src="/Group.svg" alt="logo" />
+  <img src="/logo.svg" alt="logo" />
   <ul class="flex flex-wrap items-center font-medium text-base ml-6">
     {#each data.mainRoutes as route}
       <MenuItem item={route} />
