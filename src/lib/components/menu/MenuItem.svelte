@@ -24,7 +24,7 @@
   <!-- Submenu -->
   {#if open}
     <ul
-      class="origin-top-right absolute top-full left-1/2 -translate-x-1/2 min-w-[240px] bg-white rounded-lg shadow-xl overflow-hidden z-[10]"
+      class="origin-top-right absolute top-full left-1/2 -translate-x-1/2 min-w-[240px] bg-[#fff] rounded-lg shadow-xl overflow-hidden z-[10]"
       transition:fade={{ duration: 200 }}
     >
       {#each item.subLink || [] as subMenu, index}
