@@ -4,7 +4,11 @@
   import Carousel from '$lib/components/carousel/Carousel.svelte'
   import { fade } from 'svelte/transition'
   import MenuItem from '$lib/components/menu/MenuItem.svelte'
-  export let data
+  import { page } from '$app/stores'
+
+  // Accessing the loaded config from server
+  $: mainRoutes = $page.data.mainRoutes
+
   let open = false
 </script>
 
@@ -12,7 +16,7 @@
 <nav class="flex justify-start bg-[#156fee] h-16 px-6 items-center">
   <img src="/logo.svg" alt="logo" />
   <ul class="flex flex-wrap items-center font-medium text-base ml-6">
-    {#each data.mainRoutes as route}
+    {#each mainRoutes as route}
       <MenuItem item={route} />
     {/each}
   </ul>

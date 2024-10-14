@@ -8,6 +8,8 @@ export const load: PageLoad = async () => {
       'x-tenant': btoa('meeyland')
     }
   })
+
+  console.log('fetch configs...........')
   const data = await response?.json()
 
   return {
