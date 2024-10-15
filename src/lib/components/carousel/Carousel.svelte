@@ -5,10 +5,10 @@
   let main: Splide
   let thumbs: SplideSlide
 
-  export let slides
+  export let slides: any[]
 
   const mainOptions = {
-    type: 'loop',
+    type: slides?.length > 1 ? 'loop' : 'slide',
     perPage: 1,
     perMove: 1,
     gap: '1rem',
@@ -61,16 +61,18 @@
     </div>
   </Splide>
 
-  <Splide options={thumbsOptions} bind:this={thumbs} class="mt-4">
-    {#each slides as slide}
-      <SplideSlide>
-        <img src={slide.src} alt={slide.alt} />
-      </SplideSlide>
-    {/each}
+  {#if slides.length > 1}
+    <Splide options={thumbsOptions} bind:this={thumbs} class="mt-4">
+      {#each slides as slide}
+        <SplideSlide>
+          <img src={slide.src} alt={slide.alt} />
+        </SplideSlide>
+      {/each}
 
-    <div class="splide__arrows">
-      <button class="splide__arrow splide__arrow--prev">Prev</button>
-      <button class="splide__arrow splide__arrow--next">Next</button>
-    </div>
-  </Splide>
+      <div class="splide__arrows">
+        <button class="splide__arrow splide__arrow--prev">Prev</button>
+        <button class="splide__arrow splide__arrow--next">Next</button>
+      </div>
+    </Splide>
+  {/if}
 </div>

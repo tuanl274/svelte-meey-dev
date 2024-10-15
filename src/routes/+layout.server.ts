@@ -4,14 +4,13 @@ import type { PageLoad } from './$types'
 // export const prerender = true
 
 export const load: PageLoad = async () => {
-  const response = await fetch('https://api-meeyland.meey.dev/v1/configs', {
+  const response = await fetch('https://api5.meeyland.com/v1/configs', {
     method: 'GET',
     headers: {
       'x-tenant': btoa('meeyland')
     }
   })
 
-  console.log('fetch configs...........')
   const data = await response?.json()
 
   return {
