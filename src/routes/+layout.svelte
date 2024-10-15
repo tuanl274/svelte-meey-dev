@@ -22,11 +22,11 @@
       const script = document.createElement('script')
       scriptSdk.src = 'https://meeyid-sdk-test.meey.dev/sdk.js'
       scriptSdk.defer = true
-      document.body.appendChild(scriptSdk)
+      document.head.appendChild(scriptSdk)
 
       script.src = '/js/auth.js'
       script.defer = true
-      document.body.appendChild(script)
+      document.head.appendChild(script)
       scriptLoaded = true
     }
 
@@ -55,7 +55,7 @@
     id="meeyid-sso-button"
     on:click={() => {
       // @ts-ignore
-      meeyid?.showLogin()
+      window?.MeeyId?.showLogin()
     }}>Login</button
   >
 </nav>
