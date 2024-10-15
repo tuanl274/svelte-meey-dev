@@ -7,6 +7,10 @@
   const article = data.article
 </script>
 
+<svelte:head>
+  <link rel="preload" href={data.slides[0].src} as="image" />
+</svelte:head>
+
 <div class="bg-[#F2F4F7] w-full h-full">
   <div class="layout grid grid-cols-12 gap-6">
     <div class="col-span-12 flex items-center">
@@ -170,13 +174,12 @@
       </div>
 
       <!-- Bat dong sn tuong tu -->
-      <div class="bg-[#fff] p-6 text-secondary-900 flex flex-col mt-6">
+      <!-- <div class="bg-[#fff] p-6 text-secondary-900 flex flex-col mt-6">
         <div class="flex justify-between items-center mb-4">
           <h2 class="meey-heading-5m leading-none">Bất động sản tương tự</h2>
           <a
             href="/ban-can-ho-chung-cu-bac-tu-liem-ha-noi-i1432?category=5deb722db4367252525c1d00&amp;locations=%5B%7B%22city%22%3A%225e5501caeb80a7245175dddb%22%2C%22district%22%3A%225e5501caeb80a7245175de35%22%7D%5D&amp;totalPrices[]=4725000000_8775000000&amp;typeOfHouses[]=65eeb3cf01dfc72e1912edb2"
-            ><span class="text-primary-600 meey-sub-14m"
-              >Xem <!-- -->452<!-- -->+ tin đăng</span
+            ><span class="text-primary-600 meey-sub-14m">Xem 452+ tin đăng</span
             ></a
           >
         </div>
@@ -787,7 +790,7 @@
             </div>
           </div></a
         >
-      </div>
+      </div> -->
     </div>
 
     <!-- Right content -->
@@ -913,7 +916,7 @@
           </button>
         </div>
       </div>
-      <div class="rounded-lg bg-[#fff] p-6 text-secondary-900 flex flex-col">
+      <!-- <div class="rounded-lg bg-[#fff] p-6 text-secondary-900 flex flex-col">
         <div class="flex justify-between items-center mb-4">
           <h2 class="meey-heading-5m">Bất động sản cùng dự án</h2>
         </div>
@@ -1446,7 +1449,7 @@
             >Xem thêm 1+ bất động sản cùng dự án</span
           ></a
         >
-      </div>
+      </div> -->
     </div>
   </div>
   <!-- Bottom content -->
