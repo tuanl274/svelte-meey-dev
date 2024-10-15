@@ -21,8 +21,8 @@
     rewind: true,
     gap: '1rem',
     pagination: false,
-    fixedWidth: 110,
-    fixedHeight: 70,
+    perPage: 4,
+    fixedHeight: 118,
     cover: true,
     focus: 'center' as const,
     isNavigation: true,
@@ -61,11 +61,16 @@
     </div>
   </Splide>
 
-  <!-- <Splide options={thumbsOptions} bind:this={thumbs}>
+  <Splide options={thumbsOptions} bind:this={thumbs} class="mt-4">
     {#each slides as slide}
       <SplideSlide>
         <img src={slide.src} alt={slide.alt} />
       </SplideSlide>
     {/each}
-  </Splide> -->
+
+    <div class="splide__arrows">
+      <button class="splide__arrow splide__arrow--prev">Prev</button>
+      <button class="splide__arrow splide__arrow--next">Next</button>
+    </div>
+  </Splide>
 </div>

@@ -193,8 +193,629 @@
           {/if}
         </div>
       </div>
+
+      <!-- Bat dong sn tuong tu -->
+      <div class="bg-[#fff] p-6 text-secondary-900 flex flex-col mt-6">
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="meey-heading-5m leading-none">Bất động sản tương tự</h2>
+          <a
+            href="/ban-can-ho-chung-cu-bac-tu-liem-ha-noi-i1432?category=5deb722db4367252525c1d00&amp;locations=%5B%7B%22city%22%3A%225e5501caeb80a7245175dddb%22%2C%22district%22%3A%225e5501caeb80a7245175de35%22%7D%5D&amp;totalPrices[]=4725000000_8775000000&amp;typeOfHouses[]=65eeb3cf01dfc72e1912edb2"
+            ><span class="text-primary-600 meey-sub-14m"
+              >Xem <!-- -->452<!-- -->+ tin đăng</span
+            ></a
+          >
+        </div>
+        <a
+          class="text-fs-14 rounded-lg font-medium tracking-007 hover:shadow-top-filter"
+          title="Bán gấp căn hộ 4 phòng ngủ chung cư An Bình city – khu đô thị Thành phố Giao lưu"
+          href="/ban-can-ho-chung-cu-bac-tu-liem-ha-noi-i1432/301909028"
+          ><div class="flex items-start space-x-3 h-full">
+            <div class="w-[200px] flex-shrink-0 rounded-lg h-full">
+              <div class="relative h-full h-full rounded-sm">
+                <div class="lazyload-wrapper">
+                  <img
+                    class="object-cover w-full h-full rounded-sm"
+                    alt="Bán gấp căn hộ 4 phòng ngủ chung cư An Bình city – khu đô thị Thành phố Giao lưu"
+                    width="200"
+                    height="133"
+                    fetchpriority="low"
+                    src="https://image.meeyland.com/meeyland/images/2024/10/12/f8dfdf1553984737bcd89300e3d9015b-1728730494972-626351.jpg?rt=fill&amp;w=200&amp;h=133&amp;q=100&amp;dpr=1&amp;g=ce&amp;wmo=0.8&amp;wmg=sowe&amp;wmx=16&amp;wmy=16&amp;wms=0.25&amp;s=kJDQXPIBclLeI-PZr4QDuWShiqMStEb_hyCiSyNCr7w"
+                  />
+                </div>
+                <div
+                  class="absolute w-full -bottom-6 flex items-center justify-center mb-10"
+                >
+                  <button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white h-2 w-2"
+                    aria-label="dot"
+                  ></button>
+                </div>
+                <div
+                  class="!absolute sm:top-2 sm:right-2 top-1 right-1 z-[2] w-6 h-6"
+                >
+                  <div>
+                    <div
+                      class="cursor-pointer rounded-full w-6 h-6 flex items-center justify-center transition-all duration-300 bg-secondary-100 text-secondary-600"
+                    >
+                      <i
+                        class="ml-heart-b transition-all duration-500 text-base !leading-none text-secondary-600"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute flex items-center space-x-2 top-1 left-1"
+                ></div>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 gap-y-1 pl-0 w-full">
+              <div class="flex items-center justify-between gap-x-2 w-full">
+                <h3
+                  class="text-fs-14 font-medium tracking-007 break-word line-clamp-2 line-clamp-1"
+                >
+                  Bán gấp căn hộ 4 phòng ngủ chung cư An Bình city – khu đô thị
+                  Thành phố Giao lưu
+                </h3>
+                <div
+                  class="flex items-center justify-end flex-shrink-0 gap-x-2 flex-row"
+                >
+                  <div
+                    class="bg-primary-800 rounded-full meey-caption-12m text-white flex items-center justify-center w-8 h-8 md:w-9 md:h-9"
+                  >
+                    5.8
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-x-1 flex-shrink-0">
+                <i class="ml-clock-b text-secondary-400 text-base leading-4"
+                ></i><span class="meey-body-14r text-secondary-600"
+                  >1 tiếng trước</span
+                >
+              </div>
+              <div
+                class="meey-body-14r text-secondary-600 flex items-center space-x-1 flex-shrink-0"
+              >
+                <i class="ml-location-b text-secondary-400 text-base leading-4"
+                ></i>
+                <div class="meey-body-14r line-clamp-1">
+                  Q. Bắc Từ Liêm, Tp. Hà Nội
+                </div>
+              </div>
+              <div class="flex gap-x-6">
+                <div class="flex flex-row items-end space-x-1">
+                  <div
+                    class="full-tablet:text-base text-fs-20 font-medium text-error-600"
+                  >
+                    6,2 tỷ
+                  </div>
+                  <div
+                    class="meey-caption-12r text-secondary-600 full-tablet:mb-0.5 mb-1"
+                  >
+                    68,89 tr/m²
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2">
+                  <div class="flex items-end">
+                    <i
+                      class="text-base mr-1 text-secondary-400 ml-format-square-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="90 m²">90 m²</span
+                    >
+                  </div>
+                  <div class="flex items-end">
+                    <i class="text-base mr-1 text-secondary-400 ml-bed-single-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="3">3</span
+                    >
+                  </div>
+                  <div class="flex items-end">
+                    <i class="text-base mr-1 text-secondary-400 ml-bathtub-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="2">2</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></a
+        ><a
+          class="text-fs-14 rounded-lg font-medium tracking-007 hover:shadow-top-filter mt-6"
+          title="Bán căn hộ 3 phòng ngủ chung cư Ngoại Giao Đoàn quận Bắc Từ Liêm"
+          href="/ban-can-ho-chung-cu-bac-tu-liem-ha-noi-i1432/301907497"
+          ><div class="flex items-start space-x-3 h-full">
+            <div class="w-[200px] flex-shrink-0 rounded-lg h-full">
+              <div class="relative h-full h-full rounded-sm">
+                <div class="lazyload-wrapper">
+                  <img
+                    class="object-cover w-full h-full rounded-sm"
+                    alt="Bán căn hộ 3 phòng ngủ chung cư Ngoại Giao Đoàn quận Bắc Từ Liêm"
+                    width="200"
+                    height="133"
+                    fetchpriority="low"
+                    src="https://image.meeyland.com/meeyland/images/2024/10/12/picbancanho4ngu153m2tangtrungviewthoangfulldocosodotoae4ciputra202378115219-1728722549054-547051.jpg?rt=fill&amp;w=200&amp;h=133&amp;q=100&amp;dpr=1&amp;g=ce&amp;wmo=0.8&amp;wmg=sowe&amp;wmx=16&amp;wmy=16&amp;wms=0.25&amp;s=zfMODRS7Sgvbd2X7T06rhpf3IGnK_ndWRYj535LuUEs"
+                  />
+                </div>
+                <div
+                  class="absolute w-full -bottom-6 flex items-center justify-center mb-10"
+                >
+                  <button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white h-2 w-2"
+                    aria-label="dot"
+                  ></button>
+                </div>
+                <div
+                  class="!absolute sm:top-2 sm:right-2 top-1 right-1 z-[2] w-6 h-6"
+                >
+                  <div>
+                    <div
+                      class="cursor-pointer rounded-full w-6 h-6 flex items-center justify-center transition-all duration-300 bg-secondary-100 text-secondary-600"
+                    >
+                      <i
+                        class="ml-heart-b transition-all duration-500 text-base !leading-none text-secondary-600"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute flex items-center space-x-2 top-1 left-1"
+                ></div>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 gap-y-1 pl-0 w-full">
+              <div class="flex items-center justify-between gap-x-2 w-full">
+                <h3
+                  class="text-fs-14 font-medium tracking-007 break-word line-clamp-2 line-clamp-1"
+                >
+                  Bán căn hộ 3 phòng ngủ chung cư Ngoại Giao Đoàn quận Bắc Từ
+                  Liêm
+                </h3>
+                <div
+                  class="flex items-center justify-end flex-shrink-0 gap-x-2 flex-row"
+                >
+                  <div
+                    class="bg-primary-800 rounded-full meey-caption-12m text-white flex items-center justify-center w-8 h-8 md:w-9 md:h-9"
+                  >
+                    6
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-x-1 flex-shrink-0">
+                <i class="ml-clock-b text-secondary-400 text-base leading-4"
+                ></i><span class="meey-body-14r text-secondary-600"
+                  >1 tiếng trước</span
+                >
+              </div>
+              <div
+                class="meey-body-14r text-secondary-600 flex items-center space-x-1 flex-shrink-0"
+              >
+                <i class="ml-location-b text-secondary-400 text-base leading-4"
+                ></i>
+                <div class="meey-body-14r line-clamp-1">
+                  Q. Bắc Từ Liêm, Tp. Hà Nội
+                </div>
+              </div>
+              <div class="flex gap-x-6">
+                <div class="flex flex-row items-end space-x-1">
+                  <div
+                    class="full-tablet:text-base text-fs-20 font-medium text-error-600"
+                  >
+                    7 tỷ
+                  </div>
+                  <div
+                    class="meey-caption-12r text-secondary-600 full-tablet:mb-0.5 mb-1"
+                  >
+                    68,63 tr/m²
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2">
+                  <div class="flex items-end">
+                    <i
+                      class="text-base mr-1 text-secondary-400 ml-format-square-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="102 m²">102 m²</span
+                    >
+                  </div>
+                  <div class="flex items-end">
+                    <i class="text-base mr-1 text-secondary-400 ml-bed-single-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="3">3</span
+                    >
+                  </div>
+                  <div class="flex items-end">
+                    <i class="text-base mr-1 text-secondary-400 ml-bathtub-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="2">2</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></a
+        ><a
+          class="text-fs-14 rounded-lg font-medium tracking-007 hover:shadow-top-filter mt-6"
+          title="Bán căn góc chung cư khu đô thị Goldmark City 136 Hồ Tùng Mậu 104m2, 3 ngủ, 2 vệ sinh, 2 ban công, full nội thất"
+          href="/ban-can-ho-chung-cu-bac-tu-liem-ha-noi-i1432/301424782"
+          ><div class="flex items-start space-x-3 h-full">
+            <div class="w-[200px] flex-shrink-0 rounded-lg h-full">
+              <div class="relative h-full h-full rounded-sm">
+                <div class="lazyload-wrapper">
+                  <img
+                    class="object-cover w-full h-full rounded-sm"
+                    alt="Bán căn góc chung cư khu đô thị Goldmark City 136 Hồ Tùng Mậu 104m2, 3 ngủ, 2 vệ sinh, 2 ban công, full nội thất"
+                    width="200"
+                    height="133"
+                    fetchpriority="low"
+                    src="https://image.meeyland.com/meeyland/images/2024/09/01/z578843447078908d407ab96117c499638c9694dfebf43-1725206169735-211822.jpg?rt=fill&amp;w=200&amp;h=133&amp;q=100&amp;dpr=1&amp;g=ce&amp;wmo=0.8&amp;wmg=sowe&amp;wmx=16&amp;wmy=16&amp;wms=0.25&amp;s=scFz6mWh-38N7d-J38zWlTWDlt1eObbLynJSgQHUCko"
+                  />
+                </div>
+                <div
+                  class="absolute w-full -bottom-6 flex items-center justify-center mb-10"
+                >
+                  <button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white h-2 w-2"
+                    aria-label="dot"
+                  ></button><button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white opacity-50 h-1 w-1"
+                    aria-label="dot"
+                  ></button><button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white opacity-50 h-1 w-1"
+                    aria-label="dot"
+                  ></button><button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white opacity-50 h-1 w-1"
+                    aria-label="dot"
+                  ></button><button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white opacity-50 h-1 w-1"
+                    aria-label="dot"
+                  ></button><button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white opacity-50 h-1 w-1"
+                    aria-label="dot"
+                  ></button><button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white opacity-50 h-1 w-1"
+                    aria-label="dot"
+                  ></button><button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white opacity-50 h-1 w-1"
+                    aria-label="dot"
+                  ></button><button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white opacity-50 h-1 w-1"
+                    aria-label="dot"
+                  ></button><button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white opacity-50 h-1 w-1"
+                    aria-label="dot"
+                  ></button>
+                </div>
+                <div
+                  class="!absolute sm:top-2 sm:right-2 top-1 right-1 z-[2] w-6 h-6"
+                >
+                  <div>
+                    <div
+                      class="cursor-pointer rounded-full w-6 h-6 flex items-center justify-center transition-all duration-300 bg-secondary-100 text-secondary-600"
+                    >
+                      <i
+                        class="ml-heart-b transition-all duration-500 text-base !leading-none text-secondary-600"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute flex items-center space-x-2 top-1 left-1"
+                ></div>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 gap-y-1 pl-0 w-full">
+              <div class="flex items-center justify-between gap-x-2 w-full">
+                <h3
+                  class="text-fs-14 font-medium tracking-007 break-word line-clamp-2 line-clamp-1"
+                >
+                  Bán căn góc chung cư khu đô thị Goldmark City 136 Hồ Tùng Mậu
+                  104m2, 3 ngủ, 2 vệ sinh, 2 ban công, full nội thất
+                </h3>
+                <div
+                  class="flex items-center justify-end flex-shrink-0 gap-x-2 flex-row"
+                >
+                  <div
+                    class="bg-primary-800 rounded-full meey-caption-12m text-white flex items-center justify-center w-8 h-8 md:w-9 md:h-9"
+                  >
+                    7.1
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-x-1 flex-shrink-0">
+                <i class="ml-clock-b text-secondary-400 text-base leading-4"
+                ></i><span class="meey-body-14r text-secondary-600"
+                  >2 tiếng trước</span
+                >
+              </div>
+              <div
+                class="meey-body-14r text-secondary-600 flex items-center space-x-1 flex-shrink-0"
+              >
+                <i class="ml-location-b text-secondary-400 text-base leading-4"
+                ></i>
+                <div class="meey-body-14r line-clamp-1">
+                  Q. Bắc Từ Liêm, Tp. Hà Nội
+                </div>
+              </div>
+              <div class="flex gap-x-6">
+                <div class="flex flex-row items-end space-x-1">
+                  <div
+                    class="full-tablet:text-base text-fs-20 font-medium text-error-600"
+                  >
+                    7,2 tỷ
+                  </div>
+                  <div
+                    class="meey-caption-12r text-secondary-600 full-tablet:mb-0.5 mb-1"
+                  >
+                    69,23 tr/m²
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2">
+                  <div class="flex items-end">
+                    <i
+                      class="text-base mr-1 text-secondary-400 ml-format-square-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="104 m²">104 m²</span
+                    >
+                  </div>
+                  <div class="flex items-end">
+                    <i class="text-base mr-1 text-secondary-400 ml-bed-single-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="3">3</span
+                    >
+                  </div>
+                  <div class="flex items-end">
+                    <i class="text-base mr-1 text-secondary-400 ml-bathtub-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="2">2</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></a
+        ><a
+          class="text-fs-14 rounded-lg font-medium tracking-007 hover:shadow-top-filter mt-6"
+          title="Bán căn hộ chung cư Ngoại Giao Đoàn – 3 phòng ngủ"
+          href="/ban-can-ho-chung-cu-bac-tu-liem-ha-noi-i1432/301895743"
+          ><div class="flex items-start space-x-3 h-full">
+            <div class="w-[200px] flex-shrink-0 rounded-lg h-full">
+              <div class="relative h-full h-full rounded-sm">
+                <div class="lazyload-wrapper">
+                  <img
+                    class="object-cover w-full h-full rounded-sm"
+                    alt="Bán căn hộ chung cư Ngoại Giao Đoàn – 3 phòng ngủ"
+                    width="200"
+                    height="133"
+                    fetchpriority="low"
+                    src="https://image.meeyland.com/meeyland/images/2024/10/11/chungcuhnp2803100319-1728635549006-196116.jpg?rt=fill&amp;w=200&amp;h=133&amp;q=100&amp;dpr=1&amp;g=ce&amp;wmo=0.8&amp;wmg=sowe&amp;wmx=16&amp;wmy=16&amp;wms=0.25&amp;s=OzawLPrFcQDINgCOEb5pbE5GILFzlmm0P-ljxQny5oo"
+                  />
+                </div>
+                <div
+                  class="absolute w-full -bottom-6 flex items-center justify-center mb-10"
+                >
+                  <button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white h-2 w-2"
+                    aria-label="dot"
+                  ></button>
+                </div>
+                <div
+                  class="!absolute sm:top-2 sm:right-2 top-1 right-1 z-[2] w-6 h-6"
+                >
+                  <div>
+                    <div
+                      class="cursor-pointer rounded-full w-6 h-6 flex items-center justify-center transition-all duration-300 bg-secondary-100 text-secondary-600"
+                    >
+                      <i
+                        class="ml-heart-b transition-all duration-500 text-base !leading-none text-secondary-600"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute flex items-center space-x-2 top-1 left-1"
+                ></div>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 gap-y-1 pl-0 w-full">
+              <div class="flex items-center justify-between gap-x-2 w-full">
+                <h3
+                  class="text-fs-14 font-medium tracking-007 break-word line-clamp-2 line-clamp-1"
+                >
+                  Bán căn hộ chung cư Ngoại Giao Đoàn – 3 phòng ngủ
+                </h3>
+                <div
+                  class="flex items-center justify-end flex-shrink-0 gap-x-2 flex-row"
+                >
+                  <div
+                    class="bg-primary-800 rounded-full meey-caption-12m text-white flex items-center justify-center w-8 h-8 md:w-9 md:h-9"
+                  >
+                    6
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-x-1 flex-shrink-0">
+                <i class="ml-clock-b text-secondary-400 text-base leading-4"
+                ></i><span class="meey-body-14r text-secondary-600"
+                  >2 ngày trước</span
+                >
+              </div>
+              <div
+                class="meey-body-14r text-secondary-600 flex items-center space-x-1 flex-shrink-0"
+              >
+                <i class="ml-location-b text-secondary-400 text-base leading-4"
+                ></i>
+                <div class="meey-body-14r line-clamp-1">
+                  Q. Bắc Từ Liêm, Tp. Hà Nội
+                </div>
+              </div>
+              <div class="flex gap-x-6">
+                <div class="flex flex-row items-end space-x-1">
+                  <div
+                    class="full-tablet:text-base text-fs-20 font-medium text-error-600"
+                  >
+                    7 tỷ
+                  </div>
+                  <div
+                    class="meey-caption-12r text-secondary-600 full-tablet:mb-0.5 mb-1"
+                  >
+                    68,63 tr/m²
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2">
+                  <div class="flex items-end">
+                    <i
+                      class="text-base mr-1 text-secondary-400 ml-format-square-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="102 m²">102 m²</span
+                    >
+                  </div>
+                  <div class="flex items-end">
+                    <i class="text-base mr-1 text-secondary-400 ml-bed-single-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="3">3</span
+                    >
+                  </div>
+                  <div class="flex items-end">
+                    <i class="text-base mr-1 text-secondary-400 ml-bathtub-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="2">2</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></a
+        ><a
+          class="text-fs-14 rounded-lg font-medium tracking-007 hover:shadow-top-filter mt-6"
+          title="Bán căn hộ chung cư An Bình City quận Bắc Từ Liêm, 114m2, giá tốt nhất khu"
+          href="/ban-can-ho-chung-cu-bac-tu-liem-ha-noi-i1432/301895520"
+          ><div class="flex items-start space-x-3 h-full">
+            <div class="w-[200px] flex-shrink-0 rounded-lg h-full">
+              <div class="relative h-full h-full rounded-sm">
+                <div class="lazyload-wrapper">
+                  <img
+                    class="object-cover w-full h-full rounded-sm"
+                    alt="Bán căn hộ chung cư An Bình City quận Bắc Từ Liêm, 114m2, giá tốt nhất khu"
+                    width="200"
+                    height="133"
+                    fetchpriority="low"
+                    src="https://image.meeyland.com/meeyland/images/2024/10/11/1-1728631700664-880820.jpg?rt=fill&amp;w=200&amp;h=133&amp;q=100&amp;dpr=1&amp;g=ce&amp;wmo=0.8&amp;wmg=sowe&amp;wmx=16&amp;wmy=16&amp;wms=0.25&amp;s=ZMTt_W6hKT2G7vXRDlUalw3eE7IGGoPZdPnwR7vKMUw"
+                  />
+                </div>
+                <div
+                  class="absolute w-full -bottom-6 flex items-center justify-center mb-10"
+                >
+                  <button
+                    class="inline-block mx-1 rounded-full flex-shrink-0 bg-white h-2 w-2"
+                    aria-label="dot"
+                  ></button>
+                </div>
+                <div
+                  class="!absolute sm:top-2 sm:right-2 top-1 right-1 z-[2] w-6 h-6"
+                >
+                  <div>
+                    <div
+                      class="cursor-pointer rounded-full w-6 h-6 flex items-center justify-center transition-all duration-300 bg-secondary-100 text-secondary-600"
+                    >
+                      <i
+                        class="ml-heart-b transition-all duration-500 text-base !leading-none text-secondary-600"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute flex items-center space-x-2 top-1 left-1"
+                ></div>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 gap-y-1 pl-0 w-full">
+              <div class="flex items-center justify-between gap-x-2 w-full">
+                <h3
+                  class="text-fs-14 font-medium tracking-007 break-word line-clamp-2 line-clamp-1"
+                >
+                  Bán căn hộ chung cư An Bình City quận Bắc Từ Liêm, 114m2, giá
+                  tốt nhất khu
+                </h3>
+                <div
+                  class="flex items-center justify-end flex-shrink-0 gap-x-2 flex-row"
+                >
+                  <div
+                    class="bg-primary-800 rounded-full meey-caption-12m text-white flex items-center justify-center w-8 h-8 md:w-9 md:h-9"
+                  >
+                    5.6
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-x-1 flex-shrink-0">
+                <i class="ml-clock-b text-secondary-400 text-base leading-4"
+                ></i><span class="meey-body-14r text-secondary-600"
+                  >2 ngày trước</span
+                >
+              </div>
+              <div
+                class="meey-body-14r text-secondary-600 flex items-center space-x-1 flex-shrink-0"
+              >
+                <i class="ml-location-b text-secondary-400 text-base leading-4"
+                ></i>
+                <div class="meey-body-14r line-clamp-1">
+                  Q. Bắc Từ Liêm, Tp. Hà Nội
+                </div>
+              </div>
+              <div class="flex gap-x-6">
+                <div class="flex flex-row items-end space-x-1">
+                  <div
+                    class="full-tablet:text-base text-fs-20 font-medium text-error-600"
+                  >
+                    8 tỷ
+                  </div>
+                  <div
+                    class="meey-caption-12r text-secondary-600 full-tablet:mb-0.5 mb-1"
+                  >
+                    70,18 tr/m²
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2">
+                  <div class="flex items-end">
+                    <i
+                      class="text-base mr-1 text-secondary-400 ml-format-square-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="114 m²">114 m²</span
+                    >
+                  </div>
+                  <div class="flex items-end">
+                    <i class="text-base mr-1 text-secondary-400 ml-bed-single-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="3">3</span
+                    >
+                  </div>
+                  <div class="flex items-end">
+                    <i class="text-base mr-1 text-secondary-400 ml-bathtub-b"
+                    ></i><span
+                      class="line-clamp-1 meey-body-14r text-secondary-600"
+                      title="2">2</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></a
+        >
+      </div>
     </div>
 
+    <!-- Right content -->
     <div class="col-span-5 miniTablet:hidden flex flex-col space-y-6">
       <div class="rounded-lg bg-[#fff] p-6 flex flex-col">
         <div
@@ -850,6 +1471,186 @@
             >Xem thêm 1+ bất động sản cùng dự án</span
           ></a
         >
+      </div>
+    </div>
+  </div>
+  <!-- Bottom content -->
+  <div class="w-full bg-[#fff] mt-6" id="interestRate">
+    <div class="layout miniTablet:!py-6 !py-12 flex flex-col space-y-6">
+      <h3 class="meey-heading-5m text-secondary-800">Tính lãi suất</h3>
+      <form class="flex items-start space-x-6">
+        <div class="w-7/12 border border-secondary-200 p-6 rounded-lg">
+          <div
+            class="flex rounded-full bg-[#F2F3F5] text-center meey-body-14r mb-6"
+          >
+            <button
+              class="w-1/2 miniTablet:py-1 py-2 px-3 border border-primary-600 rounded-full bg-white text-primary-600 meey-sub-14m"
+              type="button">Dư nợ giảm dần</button
+            ><button class="w-1/2 miniTablet:py-1 py-2 px-3" type="button"
+              >Trả đều hàng tháng</button
+            >
+          </div>
+          <div class="flex items-center space-x-6 mb-2">
+            <span class="w-[10.5rem] meey-sub-14m flex-shrink-0"
+              >Số tiền bạn vay (đ)</span
+            >
+            <div
+              class="meey-input flex items-center justify-between space-x-1 flex-grow"
+            >
+              <input
+                type="text"
+                inputmode="decimal"
+                id="loanValue"
+                class="w-full placeholder:text-black-v6"
+                placeholder="Nhập số tiền bạn vay"
+                value="4.725.000.000"
+              /><span class="leading-none cursor-pointer"
+                ><i
+                  class="ml-close-circle text-fs-20 leading-5 text-secondary-400"
+                ></i></span
+              >
+            </div>
+          </div>
+          <p class="text-right meey-caption-12r text-secondary-500">
+            ~ 70% giá trị bất động sản
+          </p>
+          <div
+            class="mt-4 flex miniTablet:flex-col flex-row miniTablet:items-start items-center w-full miniTablet:gap-2 gap-6"
+          >
+            <span class="w-[10.5rem] meey-sub-14m flex-shrink-0"
+              >Thời gian vay (Tháng)</span
+            >
+            <div class="w-full flex items-center gap-6">
+              <label class="range-slider"
+                ><input
+                  id="range-slider-val-0.9150355863459201"
+                  class="range-slider__range"
+                  type="range"
+                  min="1"
+                  max="240"
+                  step="1"
+                  value="12"
+                  style="background: linear-gradient(90deg, rgb(21, 112, 239) 4.60251%, rgb(242, 244, 247) 4.61251%);"
+                /></label
+              >
+              <div
+                class="meey-input flex items-center justify-between space-x-1 w-[64px] [&>input]:text-center"
+              >
+                <input
+                  type="text"
+                  inputmode="decimal"
+                  class="w-full placeholder:text-black-v6"
+                  placeholder=""
+                  value="12"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="mt-4 flex miniTablet:flex-col flex-row miniTablet:items-start items-center w-full miniTablet:gap-2 gap-6"
+          >
+            <span class="w-[10.5rem] meey-sub-14m flex-shrink-0"
+              >Lãi suất (%/ năm)</span
+            >
+            <div class="w-full flex items-center gap-6">
+              <label class="range-slider"
+                ><input
+                  id="range-slider-val-0.5089825476259948"
+                  class="range-slider__range"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="0.1"
+                  value="8"
+                  style="background: linear-gradient(90deg, rgb(21, 112, 239) 8%, rgb(242, 244, 247) 8.001%);"
+                /></label
+              >
+              <div
+                class="meey-input flex items-center justify-between space-x-1 w-[64px] [&>input]:text-center"
+              >
+                <input
+                  type="text"
+                  inputmode="decimal"
+                  class="w-full placeholder:text-black-v6"
+                  placeholder=""
+                  value="8%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-5/12 p-6 bg-primary-50 rounded-lg text-secondary-600">
+          <div class="flex mb-6 gap-2">
+            <p class="meey-body-14r flex-grow">Gốc cần trả</p>
+            <p
+              class="miniTablet:w-fit w-[12rem] meey-sub-16m text-right text-secondary-800"
+            >
+              4 725 000 000đ
+            </p>
+          </div>
+          <div class="flex mb-8 gap-2">
+            <p class="meey-body-14r flex-grow">Lãi cần trả</p>
+            <p
+              class="miniTablet:w-fit w-[12rem] meey-sub-16m text-right text-secondary-800"
+            >
+              204 750 000đ
+            </p>
+          </div>
+          <div
+            class="h-[1px] border border-t border-dashed border-[#D1D1D1]"
+          ></div>
+          <div class="mt-6 mb-2 flex">
+            <p class="meey-body-14r flex-grow">
+              Số tiền cả gốc và lãi trả tháng đầu
+            </p>
+            <p class="w-[12rem] meey-sub-16m text-right text-error-600">
+              425 250 000đ
+            </p>
+          </div>
+          <p class="meey-caption-12r mb-14">
+            (*) Công cụ tính toán trên website chỉ mang tính chất tham khảo
+          </p>
+          <div
+            class="flex items-center text-primary-600 justify-center w-full cursor-pointer"
+          >
+            <span class="meey-body-14r">Xem lịch trả nợ hàng tháng</span><i
+              class="ml-arrow-right text-fs-20"
+            ></i>
+          </div>
+        </div>
+      </form>
+      <div class="flex items-start space-x-6">
+        <div class="w-7/12 meey-body-14r break-word text-secondary-700">
+          * Lưu ý: Bài viết <span>“</span><a
+            title="Bán chung cư Nghĩa Đô, ngõ 106 Hoàng Quốc Việt, 3 ngủ, 95m2, tầng 15"
+            href="/ban-can-ho-chung-cu-bac-tu-liem-ha-noi-i1432/301894415"
+            ><span class="text-fs-14 font-semibold"
+              >Bán chung cư Nghĩa Đô, ngõ 106 Hoàng Quốc Việt, 3 ngủ, 95m2, tầng
+              15</span
+            ></a
+          ><span>”</span>- là do người đăng tin đăng tải và chịu trách nhiệm.
+          Meeyland.com không đảm bảo và không chịu trách nhiệm về bất kỳ thông
+          tin, nội dung nào liên quan tới tin rao này. Trường hợp phát hiện nội
+          dung tin đăng không chính xác, Quý vị hãy thông báo và cung cấp thông
+          tin cho Ban quản trị Meeyland.com theo số Hotline
+          <a
+            href="tel:0869092929"
+            title="0869092929"
+            class="text-fs-14 underline text-primary-600">0869092929</a
+          > để được hỗ trợ nhanh chóng và kịp thời nhất.
+        </div>
+        <div class="w-5/12 flex items-start space-x-6">
+          <div class="bg-primary-50 rounded-lg py-2 text-center w-1/2">
+            <p class="text-secondary-600 meey-body-16m mb-1.5">Mã tin đăng</p>
+            <h4 class="meey-heading-4s font-medium text-secondary-900">
+              301894415
+            </h4>
+          </div>
+          <div class="bg-primary-50 rounded-lg py-2 text-center w-1/2">
+            <p class="text-secondary-600 meey-body-16m mb-1.5">Lượt xem</p>
+            <h4 class="meey-heading-4s font-medium text-secondary-900">4</h4>
+          </div>
+        </div>
       </div>
     </div>
   </div>
