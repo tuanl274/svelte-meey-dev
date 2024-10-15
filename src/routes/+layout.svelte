@@ -1,16 +1,29 @@
-<script>
+<script lang="ts">
   import '../app.scss'
 
   import Carousel from '$lib/components/carousel/Carousel.svelte'
   import { fade } from 'svelte/transition'
   import MenuItem from '$lib/components/menu/MenuItem.svelte'
   import { page } from '$app/stores'
+  import { onMount } from 'svelte'
 
   // Accessing the loaded config from server
   $: mainRoutes = $page.data.mainRoutes
 
   let open = false
+
+  let meeyid: any
+
+  onMount(() => {
+    // @ts-ignore
+    meeyid = window?.MeeyId
+  })
 </script>
+
+<svelte:head>
+  <script src="https://meeyid-sdk-test.meey.dev/sdk.js" defer></script>
+  <script src="/js/auth.js" defer></script>
+</svelte:head>
 
 <!-- Menu -->
 <nav class="flex justify-start bg-[#156fee] h-16 px-6 items-center">
@@ -23,11 +36,18 @@
       height={36}
     />
   </a>
-  <ul class="flex flex-wrap items-center font-medium text-base ml-6">
+  <ul class="flex flex-wrap items-center font-medium text-base ml-6 w-full">
     {#each mainRoutes as route}
       <MenuItem item={route} />
     {/each}
   </ul>
+  <button
+    id="meeyid-sso-button"
+    on:click={() => {
+      // @ts-ignore
+      meeyid?.showLogin()
+    }}>Login</button
+  >
 </nav>
 
 <slot />

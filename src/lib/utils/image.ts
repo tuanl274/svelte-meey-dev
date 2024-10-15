@@ -1,9 +1,4 @@
-import {
-  RESIZE_DOMAIN,
-  RESIZE_KEY,
-  RESIZE_MEEY_ID_DOMAIN,
-  RESIZE_SALT
-} from '$env/static/private'
+import { RESIZE_DOMAIN, RESIZE_KEY, RESIZE_SALT } from '$env/static/private'
 import type { IResizeOnFlyOption } from 'Models'
 
 // import { sign } from './crypto'
