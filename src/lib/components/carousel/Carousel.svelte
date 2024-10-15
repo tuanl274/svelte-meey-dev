@@ -50,6 +50,7 @@
           class="rounded-lg bg-slate-500"
           width={737}
           height={422}
+          fetchpriority={index === 0 ? 'high' : 'low'}
         />
       </SplideSlide>
     {/each}

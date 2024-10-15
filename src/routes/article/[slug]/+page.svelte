@@ -7,10 +7,6 @@
   const article = data.article
 </script>
 
-<svelte:head>
-  <link rel="preload" href={data.slides[0].src} as="image" />
-</svelte:head>
-
 <div class="bg-[#F2F4F7] w-full h-full">
   <div class="layout grid grid-cols-12 gap-6">
     <div class="col-span-12 flex items-center">
