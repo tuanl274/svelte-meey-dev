@@ -15,15 +15,25 @@
   let meeyid: any
 
   onMount(() => {
+    let scriptLoaded = false
+
+    if (!scriptLoaded) {
+      const scriptSdk = document.createElement('script')
+      const script = document.createElement('script')
+      scriptSdk.src = 'https://meeyid-sdk-test.meey.dev/sdk.js'
+      scriptSdk.defer = true
+      document.body.appendChild(scriptSdk)
+
+      script.src = '/js/auth.js'
+      script.defer = true
+      document.body.appendChild(script)
+      scriptLoaded = true
+    }
+
     // @ts-ignore
     meeyid = window?.MeeyId
   })
 </script>
-
-<svelte:head>
-  <script src="https://meeyid-sdk-test.meey.dev/sdk.js" defer></script>
-  <script src="/js/auth.js" defer></script>
-</svelte:head>
 
 <!-- Menu -->
 <nav class="flex justify-start bg-[#156fee] h-16 px-6 items-center">
