@@ -65,7 +65,7 @@
     <Splide options={thumbsOptions} bind:this={thumbs} class="mt-4">
       {#each slides as slide, index}
         <SplideSlide>
-          <img src={slide.src} alt={slide.alt} />
+          <img src={slide.src} alt={slide.alt} loading="lazy" />
         </SplideSlide>
       {/each}
 
