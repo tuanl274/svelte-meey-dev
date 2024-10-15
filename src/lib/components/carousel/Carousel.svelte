@@ -48,7 +48,6 @@
           src={slide.src}
           alt={slide.alt}
           class="rounded-lg bg-slate-500"
-          fetchpriority={index == 0 ? 'high' : 'low'}
           width={737}
           height={422}
         />
@@ -65,11 +64,7 @@
     <Splide options={thumbsOptions} bind:this={thumbs} class="mt-4">
       {#each slides as slide, index}
         <SplideSlide>
-          <img
-            src={slide.src}
-            alt={slide.alt}
-            fetchpriority={index == 0 ? 'high' : 'low'}
-          />
+          <img src={slide.src} alt={slide.alt} />
         </SplideSlide>
       {/each}
 
