@@ -8,9 +8,7 @@
 </script>
 
 <svelte:head>
-  {#each data.slides as slide}
-    <link rel="preload" href={slide.src} as="image" />
-  {/each}
+  <link rel="preload" href={data.slides[0].src} as="image" />
 </svelte:head>
 
 <div class="bg-[#F2F4F7] w-full h-full">
