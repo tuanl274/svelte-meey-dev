@@ -170,7 +170,7 @@
       </div>
 
       <!-- Bat dong sn tuong tu -->
-      <!-- <div class="bg-[#fff] p-6 text-secondary-900 flex flex-col mt-6">
+      <div class="bg-[#fff] p-6 text-secondary-900 flex flex-col mt-6">
         <div class="flex justify-between items-center mb-4">
           <h2 class="meey-heading-5m leading-none">Bất động sản tương tự</h2>
           <a
@@ -786,7 +786,7 @@
             </div>
           </div></a
         >
-      </div> -->
+      </div>
     </div>
 
     <!-- Right content -->
@@ -912,7 +912,7 @@
           </button>
         </div>
       </div>
-      <!-- <div class="rounded-lg bg-[#fff] p-6 text-secondary-900 flex flex-col">
+      <div class="rounded-lg bg-[#fff] p-6 text-secondary-900 flex flex-col">
         <div class="flex justify-between items-center mb-4">
           <h2 class="meey-heading-5m">Bất động sản cùng dự án</h2>
         </div>
@@ -1445,7 +1445,7 @@
             >Xem thêm 1+ bất động sản cùng dự án</span
           ></a
         >
-      </div> -->
+      </div>
     </div>
   </div>
   <!-- Bottom content -->
