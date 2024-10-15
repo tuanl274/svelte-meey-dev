@@ -1,0 +1,93 @@
+.meey {
+	&-heading {
+		&-1m {
+			@apply text-fs-60 font-medium;
+		}
+
+		&-2m {
+			@apply text-fs-48 font-medium;
+		}
+
+		&-3m {
+			@apply text-fs-32 font-medium;
+		}
+
+		&-4m {
+			@apply text-fs-24 font-medium;
+		}
+
+		&-5m {
+			@apply text-fs-20 font-medium;
+		}
+	}
+
+	&-sub {
+		&-18m {
+			@apply text-fs-18 font-medium;
+		}
+
+		&-16m {
+			@apply text-base font-medium;
+		}
+
+		&-14m {
+			@apply text-fs-14 font-medium;
+		}
+	}
+
+	&-body {
+		&-18r {
+			@apply text-fs-18 font-normal;
+		}
+		&-16r {
+			@apply text-base font-normal;
+		}
+		&-14r {
+			@apply text-fs-14 font-normal;
+		}
+	}
+
+	&-underline {
+		&-16r {
+			@apply text-base font-normal underline;
+		}
+		&-14r {
+			@apply text-fs-14 font-normal underline;
+		}
+		&-12r {
+			@apply text-fs-12 font-normal underline;
+		}
+	}
+
+	&-caption {
+		&-12r {
+			@apply text-fs-12 font-normal;
+		}
+		&-10r {
+			@apply text-fs-10 font-normal;
+		}
+		&-12m {
+			@apply text-fs-12 font-medium;
+		}
+		&-10m {
+			@apply text-fs-10 font-medium;
+		}
+	}
+}
+
+.text {
+	&-avatar {
+		&-xs {
+			@apply text-fs-10 font-normal;
+		}
+		&-sm {
+			@apply text-fs-12 font-normal;
+		}
+		&-md {
+			@apply text-fs-14 font-normal;
+		}
+		&-lg {
+			@apply text-fs-18 font-normal;
+		}
+	}
+}

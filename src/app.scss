@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './styles/typeset.scss';
+
+@import './styles/color.scss';
+
 * {
   font-family: 'Be Vietnam Pro', sans-serif !important;
 }
