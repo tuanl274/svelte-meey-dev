@@ -3,18 +3,25 @@ import type { PageLoad } from './$types'
 
 // export const prerender = true
 
-export const load: PageLoad = async () => {
-  const response = await fetch('https://api5.meeyland.com/v1/configs', {
-    method: 'GET',
-    headers: {
-      'x-tenant': btoa('meeyland')
-    }
-  })
+let configs: any = null
 
-  const data = await response?.json()
+export const load: PageLoad = async () => {
+  if (!configs) {
+    console.log('fetch configs....')
+    const response = await fetch('https://api5.meeyland.com/v1/configs', {
+      method: 'GET',
+      headers: {
+        'x-tenant': btoa('meeyland')
+      }
+    })
+
+    const data = await response?.json()
+
+    configs = data?.data
+  }
 
   return {
-    mainRoutes: data?.data?.menu?.map((cate: any) => {
+    mainRoutes: configs.menu?.map((cate: any) => {
       return {
         type: 'link',
         key: cate._id ?? cate.value,
