@@ -63,9 +63,13 @@
 
   {#if slides.length > 1}
     <Splide options={thumbsOptions} bind:this={thumbs} class="mt-4">
-      {#each slides as slide}
+      {#each slides as slide, index}
         <SplideSlide>
-          <img src={slide.src} alt={slide.alt} />
+          <img
+            src={slide.src}
+            alt={slide.alt}
+            fetchpriority={index == 0 ? 'high' : 'low'}
+          />
         </SplideSlide>
       {/each}
 
