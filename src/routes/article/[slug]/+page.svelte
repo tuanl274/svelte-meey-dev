@@ -193,7 +193,7 @@
                     alt="Bán gấp căn hộ 4 phòng ngủ chung cư An Bình city – khu đô thị Thành phố Giao lưu"
                     width="200"
                     height="133"
-                    fetchpriority="low"
+                    loading="lazy"
                     src="https://image.meeyland.com/meeyland/images/2024/10/12/f8dfdf1553984737bcd89300e3d9015b-1728730494972-626351.jpg?rt=fill&amp;w=200&amp;h=133&amp;q=100&amp;dpr=1&amp;g=ce&amp;wmo=0.8&amp;wmg=sowe&amp;wmx=16&amp;wmy=16&amp;wms=0.25&amp;s=kJDQXPIBclLeI-PZr4QDuWShiqMStEb_hyCiSyNCr7w"
                   />
                 </div>
@@ -309,7 +309,7 @@
                     alt="Bán căn hộ 3 phòng ngủ chung cư Ngoại Giao Đoàn quận Bắc Từ Liêm"
                     width="200"
                     height="133"
-                    fetchpriority="low"
+                    loading="lazy"
                     src="https://image.meeyland.com/meeyland/images/2024/10/12/picbancanho4ngu153m2tangtrungviewthoangfulldocosodotoae4ciputra202378115219-1728722549054-547051.jpg?rt=fill&amp;w=200&amp;h=133&amp;q=100&amp;dpr=1&amp;g=ce&amp;wmo=0.8&amp;wmg=sowe&amp;wmx=16&amp;wmy=16&amp;wms=0.25&amp;s=zfMODRS7Sgvbd2X7T06rhpf3IGnK_ndWRYj535LuUEs"
                   />
                 </div>
@@ -425,7 +425,7 @@
                     alt="Bán căn góc chung cư khu đô thị Goldmark City 136 Hồ Tùng Mậu 104m2, 3 ngủ, 2 vệ sinh, 2 ban công, full nội thất"
                     width="200"
                     height="133"
-                    fetchpriority="low"
+                    loading="lazy"
                     src="https://image.meeyland.com/meeyland/images/2024/09/01/z578843447078908d407ab96117c499638c9694dfebf43-1725206169735-211822.jpg?rt=fill&amp;w=200&amp;h=133&amp;q=100&amp;dpr=1&amp;g=ce&amp;wmo=0.8&amp;wmg=sowe&amp;wmx=16&amp;wmy=16&amp;wms=0.25&amp;s=scFz6mWh-38N7d-J38zWlTWDlt1eObbLynJSgQHUCko"
                   />
                 </div>
@@ -568,7 +568,7 @@
                     alt="Bán căn hộ chung cư Ngoại Giao Đoàn – 3 phòng ngủ"
                     width="200"
                     height="133"
-                    fetchpriority="low"
+                    loading="lazy"
                     src="https://image.meeyland.com/meeyland/images/2024/10/11/chungcuhnp2803100319-1728635549006-196116.jpg?rt=fill&amp;w=200&amp;h=133&amp;q=100&amp;dpr=1&amp;g=ce&amp;wmo=0.8&amp;wmg=sowe&amp;wmx=16&amp;wmy=16&amp;wms=0.25&amp;s=OzawLPrFcQDINgCOEb5pbE5GILFzlmm0P-ljxQny5oo"
                   />
                 </div>
@@ -683,7 +683,7 @@
                     alt="Bán căn hộ chung cư An Bình City quận Bắc Từ Liêm, 114m2, giá tốt nhất khu"
                     width="200"
                     height="133"
-                    fetchpriority="low"
+                    loading="lazy"
                     src="https://image.meeyland.com/meeyland/images/2024/10/11/1-1728631700664-880820.jpg?rt=fill&amp;w=200&amp;h=133&amp;q=100&amp;dpr=1&amp;g=ce&amp;wmo=0.8&amp;wmg=sowe&amp;wmx=16&amp;wmy=16&amp;wms=0.25&amp;s=ZMTt_W6hKT2G7vXRDlUalw3eE7IGGoPZdPnwR7vKMUw"
                   />
                 </div>

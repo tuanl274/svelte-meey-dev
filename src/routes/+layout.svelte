@@ -71,6 +71,7 @@
         width="192"
         height="43"
         src="/images/logo-blue.svg"
+        loading="lazy"
       />
       <div class="mt-4 text-fs-20 leading-7 font-semibold text-secondary-800">
         Công ty Cổ phần Tập đoàn Meey Land
@@ -248,6 +249,7 @@
                         width="24"
                         height="24"
                         src="/images/icons/facebook.svg"
+                        loading="lazy"
                       /></a
                     >
                   </li>
@@ -261,6 +263,7 @@
                         width="24"
                         height="24"
                         src="/images/icons/youtube.svg"
+                        loading="lazy"
                       /></a
                     >
                   </li>
@@ -285,6 +288,7 @@
                         width="72"
                         height="21"
                         src="/images/icons/app-store.svg"
+                        loading="lazy"
                       /></a
                     >
                   </li>
@@ -298,6 +302,7 @@
                         width="72"
                         height="21"
                         src="/images/icons/google-play.svg"
+                        loading="lazy"
                       /></a
                     >
                   </li>
@@ -318,12 +323,14 @@
                 alt="bsi-certificate"
                 width="107"
                 height="56"
+                loading="lazy"
               /><img
                 src="/images/bsi-27001.svg"
                 class="h-[5rem] lg:h-[3.5rem] full-tablet:h-10 w-auto"
                 alt="bsi-certificate"
                 width="107"
                 height="56"
+                loading="lazy"
               />
             </div>
           </div>
@@ -346,6 +353,7 @@
                 width="24"
                 height="24"
                 src="/images/icons/facebook.svg"
+                loading="lazy"
               /></a
             >
           </li>
@@ -359,6 +367,7 @@
                 width="24"
                 height="24"
                 src="/images/icons/youtube.svg"
+                loading="lazy"
               /></a
             >
           </li>
@@ -377,6 +386,7 @@
                 width="72"
                 height="21"
                 src="/images/icons/app-store.svg"
+                loading="lazy"
               /></a
             >
           </li>
@@ -387,6 +397,7 @@
               href="https://play.google.com/store/apps/details?id=com.meeyland.app"
               ><img
                 alt="Google Play Store"
+                loading="lazy"
                 width="72"
                 height="21"
                 src="/images/icons/google-play.svg"
@@ -433,6 +444,7 @@
             alt="DMCA.com Protection Status"
             width="135"
             height="28"
+            loading="lazy"
             src="https://images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=a925371e-9850-4e81-9c76-6a12bb4720b6"
           /></a
         ><script
@@ -446,6 +458,7 @@
             alt="Cục sở hữu trí tuệ Việt Nam"
             width="36"
             height="36"
+            loading="lazy"
             src="/images/certificates/noip.png"
           />
           <div>
@@ -462,6 +475,7 @@
             alt="Sở thông tin và truyền thông Hà Nội"
             width="36"
             height="36"
+            loading="lazy"
             src="/images/certificates/sotttt.png"
           />
           <div>
@@ -479,6 +493,7 @@
             width="36"
             height="36"
             src="/images/certificates/vnrea.png"
+            loading="lazy"
           />
           <div>
             <div class="meey-sub-14m text-secondary-900">LÀ THÀNH VIÊN</div>
@@ -497,6 +512,7 @@
             width="36"
             height="36"
             src="/images/certificates/it.png"
+            loading="lazy"
           />
           <div>
             <div class="meey-sub-14m text-secondary-900">LÀ THÀNH VIÊN</div>
@@ -513,6 +529,7 @@
             width="36"
             height="36"
             src="/images/certificates/cov.png"
+            loading="lazy"
           />
           <div>
             <div class="meey-sub-14m text-secondary-900">ĐÃ ĐĂNG KÝ</div>
@@ -529,6 +546,7 @@
             width="36"
             height="36"
             src="/images/certificates/vecom.png"
+            loading="lazy"
           />
           <div>
             <div class="meey-sub-14m text-secondary-900">LÀ THÀNH VIÊN</div>
@@ -545,6 +563,7 @@
             width="36"
             height="36"
             src="/images/certificates/via.png"
+            loading="lazy"
           />
           <div>
             <div class="meey-sub-14m text-secondary-900">LÀ THÀNH VIÊN</div>
