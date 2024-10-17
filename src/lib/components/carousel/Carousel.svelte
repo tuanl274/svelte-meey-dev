@@ -51,6 +51,7 @@
           width={737}
           height={422}
           fetchpriority={index === 0 ? 'high' : 'low'}
+          loading={index === 0 ? 'eager' : 'lazy'}
         />
       </SplideSlide>
     {/each}
