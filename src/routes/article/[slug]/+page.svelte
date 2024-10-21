@@ -155,7 +155,7 @@
       <div class="rounded-lg bg-[#fff] p-6 text-secondary-800">
         <h3 class="text-fs-20 mb-4 font-medium">Vị trí bản đồ</h3>
         <div class="h-[300px] w-full rounded-lg z-[100]">
-          {#if browser}
+          <!-- {#if browser}
             <iframe
               title="map sdk"
               name="map iframe"
@@ -166,7 +166,7 @@
               loading="lazy"
             >
             </iframe>
-          {/if}
+          {/if} -->
         </div>
       </div>
 
