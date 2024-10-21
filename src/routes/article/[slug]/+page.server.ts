@@ -1,6 +1,10 @@
 import { resizeOnFlyUrl } from '$lib/utils/image'
 import type { PageServerLoad } from './$types'
 
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
 export const load: PageServerLoad = async ({ params }) => {
   console.time('init')
   const response = await fetch(
@@ -28,6 +32,8 @@ export const load: PageServerLoad = async ({ params }) => {
       alt: item.description ?? ''
     }
   })
+
+  await sleep(300)
 
   return {
     article: data?.data,
