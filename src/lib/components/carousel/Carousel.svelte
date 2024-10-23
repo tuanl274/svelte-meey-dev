@@ -8,6 +8,7 @@
   export let slides: any[]
   export let hasThumbnail = true
   export let height = 422
+  export let width = 737
 
   const mainOptions = {
     type: slides?.length > 1 ? 'loop' : 'slide',
@@ -50,8 +51,8 @@
           src={slide.src}
           alt={slide.alt}
           class="rounded-lg bg-slate-500"
-          width={737}
-          height={422}
+          {width}
+          {height}
           fetchpriority={index === 0 ? 'high' : 'low'}
           loading={index === 0 ? undefined : 'lazy'}
         />

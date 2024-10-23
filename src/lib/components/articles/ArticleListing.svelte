@@ -4,16 +4,19 @@
   export let article
 </script>
 
-<article class="overflow-hidden p-[2px] relative rounded animation-electron">
+<article
+  class="overflow-hidden p-[2px] relative rounded animation-electron h-[192px]"
+>
   <a
     draggable="false"
     class="flex gap-x-4 relative rounded bg-white transition-all duration-300 hover:shadow-top-divide group/article overflow-hidden"
     href="/ban-can-ho-chung-cu-thai-binh-thai-binh-i1422/302003859"
-    ><div class="w-[286px]">
+    ><div class="w-[286px] h-[192px]">
       <Carousel
         slides={article.mediaSlides}
         hasThumbnail={false}
         height={192}
+        width={286}
       />
     </div>
     <div class="flex flex-1 flex-col py-3 pr-4 min-w-0">
