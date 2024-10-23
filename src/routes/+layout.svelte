@@ -14,25 +14,25 @@
 
   let meeyid: any
 
-  onMount(() => {
-    let scriptLoaded = false
+  // onMount(() => {
+  //   let scriptLoaded = false
 
-    if (!scriptLoaded) {
-      const scriptSdk = document.createElement('script')
-      const script = document.createElement('script')
-      scriptSdk.src = 'https://meeyid-sdk-test.meey.dev/sdk.js'
-      scriptSdk.defer = true
-      document.head.appendChild(scriptSdk)
+  //   if (!scriptLoaded) {
+  //     const scriptSdk = document.createElement('script')
+  //     const script = document.createElement('script')
+  //     scriptSdk.src = 'https://meeyid-sdk-test.meey.dev/sdk.js'
+  //     scriptSdk.defer = true
+  //     document.head.appendChild(scriptSdk)
 
-      script.src = '/js/auth.js'
-      script.defer = true
-      document.head.appendChild(script)
-      scriptLoaded = true
-    }
+  //     script.src = '/js/auth.js'
+  //     script.defer = true
+  //     document.head.appendChild(script)
+  //     scriptLoaded = true
+  //   }
 
-    // @ts-ignore
-    meeyid = window?.MeeyId
-  })
+  //   // @ts-ignore
+  //   meeyid = window?.MeeyId
+  // })
 </script>
 
 <!-- Menu -->

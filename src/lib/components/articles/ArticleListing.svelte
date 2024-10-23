@@ -1,7 +1,7 @@
 <script>
   import Carousel from '../carousel/Carousel.svelte'
 
-  export let mediaSlides
+  export let article
 </script>
 
 <article class="overflow-hidden p-[2px] relative rounded animation-electron">
@@ -10,7 +10,11 @@
     class="flex gap-x-4 relative rounded bg-white transition-all duration-300 hover:shadow-top-divide group/article overflow-hidden"
     href="/ban-can-ho-chung-cu-thai-binh-thai-binh-i1422/302003859"
     ><div class="w-[286px]">
-      <Carousel slides={mediaSlides} hasThumbnail={false} height={192} />
+      <Carousel
+        slides={article.mediaSlides}
+        hasThumbnail={false}
+        height={192}
+      />
     </div>
     <div class="flex flex-1 flex-col py-3 pr-4 min-w-0">
       <div draggable="false" class="flex-1">
@@ -19,8 +23,7 @@
             class="break-word hover:text-primary-600 transition-all text-secondary-900 line-clamp-2 meey-sub-18m tracking-009"
             title="Căn chung cư cao cấp Eden Garden, thành phố Thái Bình, 2 ngủ, 2 vệ sinh, 75,4m2, chỉ từ 750 triệu"
           >
-            Căn chung cư cao cấp Eden Garden, thành phố Thái Bình, 2 ngủ, 2 vệ
-            sinh, 75,4m2, chỉ từ 750 triệu
+            {article.title}
           </h3>
           <div
             class="flex items-center justify-end flex-shrink-0 gap-x-2 flex-row"

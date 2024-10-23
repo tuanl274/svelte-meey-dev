@@ -10,6 +10,8 @@
       alt: 'ảnh 2'
     }
   ]
+  export let data
+  const articles = data.articles
 </script>
 
 <div class="layout grid grid-cols-12">
@@ -17,8 +19,8 @@
     <h1>Mua bán nhà đất 2024</h1>
     <!-- Card  -->
     <div class="flex flex-col space-y-6">
-      {#each Array(30) as item}
-        <ArticleListing {mediaSlides} />
+      {#each articles as article}
+        <ArticleListing {article} />
       {/each}
     </div>
   </div>
