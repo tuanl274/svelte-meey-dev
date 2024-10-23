@@ -11,7 +11,7 @@
     }
   ]
   export let data
-  const articles = data.articles
+  const articles = data.articles.slice(0, 10)
 </script>
 
 <div class="layout grid grid-cols-12">
