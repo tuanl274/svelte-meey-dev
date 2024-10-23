@@ -6,6 +6,8 @@
   let thumbs: SplideSlide
 
   export let slides: any[]
+  export let hasThumbnail = true
+  export let height = 422
 
   const mainOptions = {
     type: slides?.length > 1 ? 'loop' : 'slide',
@@ -13,7 +15,7 @@
     perMove: 1,
     gap: '1rem',
     pagination: false,
-    height: '422px'
+    height: `${height}px`
   }
 
   const thumbsOptions = {
@@ -62,7 +64,7 @@
     </div>
   </Splide>
 
-  {#if slides.length > 1}
+  {#if hasThumbnail && slides.length > 1}
     <Splide options={thumbsOptions} bind:this={thumbs} class="mt-4">
       {#each slides as slide, index}
         <SplideSlide>
